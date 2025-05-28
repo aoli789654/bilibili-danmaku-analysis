@@ -1,0 +1,23 @@
+# 虚拟环境文件夹
+.venv/
+venv/
+env/
+*.venv/
+
+# Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE 配置文件 (PyCharm)
+.idea/
+
+# 大型数据文件 (如果你的danmaku.csv不大，可以注释掉下面两行)
+# danmaku.csv
+# danmaku_analysis_results.xlsx
+
+# 临时文件
+*.log
+*.tmp
+*.swp
